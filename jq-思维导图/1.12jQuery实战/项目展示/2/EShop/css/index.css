@@ -1,0 +1,162 @@
+/********************************************************************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+/********************************************************************************************/
+/*********************************************index******************************************/
+.header {
+
+}
+
+/*banner和图片*/
+.banner{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+.banner .temwrap{
+	width: 1920px;
+	height: 500px;
+	position: relative;
+	left: 50%;
+	margin-left: -960px;
+}
+.banner ul li{
+	display: none;
+}
+.banner ul .on{
+	display: block;
+}
+.banner ul li a img{
+	width: 1920px;
+	height: 500px;
+	position: absolute;
+}
+
+/*轮播点*/
+.banner ol{
+	width: 100px;
+	height: 18px;
+	position: absolute;
+	left: 50%;
+	margin-left: -50px;
+	bottom: 30px;
+}
+.banner ol li{
+	width: 18px;
+	height: 18px;
+	background: url(../img/banner/btn01.png) no-repeat;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+} 
+.banner ol .on{
+	background: url(../img/banner/btn02.png) no-repeat;
+}
+
+
+
+/*左右按钮*/
+.banner .btn_prev{
+	width: 40px;
+	height: 40px;
+	background: url(../img/banner/prev_hover.png) no-repeat;
+	position: absolute;
+	left: 300px;
+	top: 50%;
+	margin-top: -20px;
+}
+.banner .btn_next{
+	width: 40px;
+	height: 40px;
+	background: url(../img/banner/next_hover.png) no-repeat;
+	position: absolute;
+	right: 300px;
+	top: 50%;
+	margin-top: -20px;
+}
+
+
+.content {
+	margin-top: 10px;
+}
+.section {
+	padding-right: 20px;
+	padding-bottom: 20px;
+	background: #c40000;
+}
+.section .tips {
+	background: #c40000;
+	padding: 12px 0 12px 50px;
+}
+.section .tips span {
+	
+}
+.section .tips font {
+	vertical-align: bottom;
+	line-height: 33px;
+	display: inline-block;
+	height: 33px;
+	font-size: 18px;
+	font-family: arial;
+	background: #fff;
+	color: #333333;
+	padding: 0 6px;
+	margin: 0 3px;
+}
+.section .tips strong {
+	display: inline-block;
+	line-height: 33px;
+	vertical-align: bottom;
+}
+
+.section .tips .s1 {
+	padding-left: 100px;
+} 
+.section .tips .b-tgl {
+	margin-top: 10px;
+	margin-right: 10px;
+	background: #c40000 url('../images/ico.png') no-repeat -38px -27px;
+	padding-right: 16px;
+}
+.section .tips .b-tgl em {
+	display: inline-block;
+	line-height: 16px;
+	color: #fff;
+	background: #c40000;
+}
+.pr1 .bg-img {
+	width: 260px;
+	height: 330px;
+}
+.pr1 a {
+	display: inline-block;
+}
+.pr1 ul {
+	width: 900px;
+	margin: 6px 8px 4px;
+	border: 1px solid #ebadad;
+	border-left: 0 none;
+	border-bottom: 0 none;
+}
+.pr1 ul li {
+	border-left: 1px solid #ebadad;
+	border-bottom: 1px solid #ebadad;
+	float: left;
+
+}
+.pr1 .right .l1{ 
+	width: 211px;
+	height: 160px;
+}
+.pr1 ul li img {
+	margin-bottom: -5px;
+}
+.pr1 ul li span {
+	text-align: center;
+	width: 72px;
+	padding: 20px 8px 10px;
+}
+.pr1 ul li span p {
+	margin-top: 10px;
+}
+
